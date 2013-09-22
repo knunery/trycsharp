@@ -1,0 +1,95 @@
+﻿/* custom css */
+body {
+    margin: 0;
+}
+
+.application-title {
+    
+
+
+}
+
+.application-title h1 {
+   
+}
+
+.application-title h1:before {
+    left: -81px;
+}
+
+.application-title h1:before, .application-title h1:after {
+    background: url('../images/hero-bg-title.png') no-repeat;
+    content: "";
+    display: block;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    width: 81px;
+}
+
+.application-title h1:after {
+    background-position: -81px 0;
+    right: -81px;
+}
+
+.instructions-panel
+{
+    /*background-image: url("/Images/carbon-fibre.png");*/
+    background-color: #3c454f;
+    background-repeat: repeat;
+    color: #fff;
+    padding: 10px;
+    height: 100%;
+}
+
+.instructions-panel code {
+    background-color: #6d747b;
+}
+
+h1 {
+    /*background-color: #0079c2;*/
+    background-color: #71b1d1;
+    text-align: center;
+    margin: 15px;
+}
+
+.instructions-panel footer
+{
+   
+    background-position: center bottom;
+    background-image: url("../images/waves.png");
+    background-repeat: no-repeat;
+}
+
+.instructions-panel footer .credits
+{
+    position: absolute;
+    bottom: 0;
+}
+
+.terminal-container {
+    background-color: #ccc;
+    padding: 10px;
+    height: 100%;
+    float: left; 
+    width: 49%;
+}
+
+
+.row, .col { overflow: hidden; position: absolute; }
+.row { left: 0; right: 0; }
+.col { top: 0; bottom: 0; }
+.scroll-x { overflow-x: auto; }
+.scroll-y { overflow-y: auto; }
+
+.header.row { height: 75px; top: 0; }
+.body.row { top: 75px; bottom: 50px; padding: 0 1em;}
+.footer.row { height: 50px; bottom: 0; }
+
+.left.col { width: 400px; }
+.right.col { left: 420px; right: 0; }
+
+.left .footer.row { height: 100px;}
+
+.right .body.row { bottom: 200px;}
+.right .footer.row { height: 200px; }
